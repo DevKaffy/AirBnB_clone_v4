@@ -32,7 +32,7 @@ def hbnb():
     amenities = sorted(amenities, key=lambda k: k.name)
 
     places = storage.all(Place).values()
-    places = sorted(places, key=lambda k: k.name)	
+    places = sorted(places, key=lambda k: k.name)
 	cache_id = (str(uuid.uuid4()))
     return render_template('0-hbnb.html',
                            states=st_ct,
