@@ -10,6 +10,7 @@ The console is the first segment of the AirBnB project at Holberton School that 
 
 ## Table of Content
 * [Environment](#environment)
+* [Description](#description)
 * [Installation](#installation)
 * [File Descriptions](#file-descriptions)
 * [Usage](#usage)
@@ -18,8 +19,37 @@ The console is the first segment of the AirBnB project at Holberton School that 
 * [Authors](#authors)
 * [License](#license)
 
+
 ## Environment
 This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.4.3)
+
+## Description
+
+Project attempts to clone the the AirBnB application and website, including the
+database, storage, RESTful API, Web Framework, and Front End.  Currently the
+application is designed to run with 2 storage engine models:
+
+* File Storage Engine:
+
+  * `/models/engine/file_storage.py`
+
+* Database Storage Engine:
+
+  * `/models/engine/db_storage.py`
+
+  * To Setup the DataBase for testing and development, there are 2 setup
+  scripts that setup a database with certain privileges: `setup_mysql_test.sql`
+  & `setup_mysql_test.sql` (for more on setup, see below).
+
+  * The Database uses Environmental Variables for tests.  To execute tests with
+  the environmental variables prepend these declarations to the execution
+  command:
+
+```
+$ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd \
+HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db python3 -m web_dynamic.FILENAME \
+[COMMAND HERE]
+```
 
 ## Installation
 * Clone this repository: `git clone "https://github.com/alexaorrico/AirBnB_clone.git"`
