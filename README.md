@@ -188,8 +188,8 @@ Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twit
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
 Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
-Adewumi Kafilat -[Github](https://github.com/DevKaffy) / [Twitter](https://twitter.com/adewumi_kafilat)
 
+Adewumi Kafilat -[Github](https://github.com/DevKaffy) / [Twitter](https://twitter.com/adewumi_kafilat)
 Aminu Shaibu - [Github](https://github.com/elameen37) / [Twitter](https://twitter.com/lmninfohub)
 
 Fourth part of Airbnb: Joann Vuong, Adewumi Kafilat, Aminu Shaibu
